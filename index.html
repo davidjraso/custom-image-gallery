@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Custom Image Gallery | Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 
+
+  </head>
+  <body>
+
+    <!-- Modals; Edit with care -->
+    <div id="creek" style="display:none;">
+      <p>Creek</p>
+      <img src="images/large/creek.jpg">
+    </div>
+    
+    <div id="dog" style="display:none;">
+      <p>Puppy</p>
+      <img src="images/large/dog.jpg">
+    </div>
+    
+    <div id="dunes" style="display:none;">
+      <p>Sand Dunes</p>
+      <img src="images/large/dunes.jpg">
+    </div>
+    
+    <div id="fence" style="display:none;">
+      <p>Fence</p>
+      <img src="images/large/fence.jpg">
+    </div>
+    
+    <div id="flower" style="display:none;">
+      <p>Bright Flower</p>
+      <img src="images/large/flower.jpg">
+    </div>
+    
+    <div id="flowering tree" style="display:none;">
+      <p>Purple Flowers</p>
+      <img src="images/large/flowering tree.jpg">
+    </div>
+    
+    <div id="leaves" style="display:none;">
+      <p>Leaves</p>
+      <img src="images/large/leaves.jpg">
+    </div>
+    
+    <div id="moon" style="display:none;">
+      <p>The Moon</p>
+      <img src="images/large/moon.jpg">
+    </div>
+    
+    <div id="mountain" style="display:none;">
+      <p>Mountain</p>
+      <img src="images/large/mountain.jpg">
+    </div>
+    
+    <div id="rocks" style="display:none;">
+      <p>Rocks</p>
+      <img src="images/large/rocks.jpg">
+    </div>
+    
+    <div id="sky" style="display:none;">
+      <p>Sky</p>
+      <img src="images/large/sky.jpg">
+    </div>
+    
+    <div id="volcano" style="display:none;">
+      <p>Volcano</p>
+      <img src="images/large/volcano.jpg">
+    </div>
+
+    <!-- Page content -->
+    <div class="container">
+
+      <section class="page-header">
+        <h1 class="project-name">Custom Image Gallery.</h1>
+        <h2 class="project-tagline">Out of Class</h2>
+      </section>
+
+      <section class="gallery">
+        <ul class="imageGallery">
+          <li><a href="#creek" rel="modal:open"><img src="images/thumbnails/creek.jpg"></a></li>
+          <li><a href="#dog" rel="modal:open"><img src="images/thumbnails/dog.jpg"></a></li>
+          <li><a href="#dunes" rel="modal:open"><img src="images/thumbnails/dunes.jpg"></a></li>
+          <li><a href="#fence" rel="modal:open"><img src="images/thumbnails/fence.jpg"></a></li>
+          <li><a href="#flower" rel="modal:open"><img src="images/thumbnails/flower.jpg"></a></li>
+          <li><a href="#flowering tree" rel="modal:open"><img src="images/thumbnails/flowering tree.jpg"></a></li>
+          <li><a href="#leaves" rel="modal:open"><img src="images/thumbnails/leaves.jpg"></a></li>
+          <li><a href="#moon" rel="modal:open"><img src="images/thumbnails/moon.jpg"></a></li>
+          <li><a href="#mountains" rel="modal:open"><img src="images/thumbnails/mountains.jpg"></a></li>
+          <li><a href="#rocks" rel="modal:open"><img src="images/thumbnails/rocks.jpg"></a></li>
+          <li><a href="#sky" rel="modal:open"><img src="images/thumbnails/sky.jpg"></a></li>
+          <li><a href="#volcano" rel="modal:open"><img src="images/thumbnails/volcano.jpg"></a></li>
+        </ul>
+      </section>
+
+      <footer class="site-footer">
+        <hr>
+        <p>Public domain photos provided by <a href="http://skuawk.com" target="_blank">skuawk.com</a></p>
+      </footer>
+      <!-- JavaScript; Do not edit below -->
+       <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.modal.min.js"></script>
+    </div>
+  </body>
+</html>
